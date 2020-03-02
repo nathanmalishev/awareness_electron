@@ -16,12 +16,10 @@ mb.on('ready', () => {
   // your app code here
   //
   
-  setTimeout( () => {
-  const audio = player.play('Zymbel_tibetan.mp3', (err) => {
+  setInterval( () => {
+    const audio = player.play('Zymbel_tibetan.m4a', (err, audio) => {
     if (err) throw err
-  // sick of audio after 3 seconds
-  setTimeout(() => audio.kill(), 5000)
-  })
+    })
   }, 1800000)
 })
 

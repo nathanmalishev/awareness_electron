@@ -1,2 +1,2 @@
-## An very sketchy alternative to awareness app.
-This was built as awareness, has not been updated to the latest mac os.
+## A very sketchy alternative to awareness app.
+This was built as awareness (mac os app) has not been updated to support the latest mac os.
